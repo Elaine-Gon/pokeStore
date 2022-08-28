@@ -15,6 +15,10 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit() {
-    this.pokemons$ = this.http.get("https://pokeapi.co/api/v2/pokemon?limit=100&offset=200")
+
+    this.http.get("http://localhost:3000/products")
+      .subscribe(d=> console.log(d));
+
+    this.pokemons$ = this.http.get("http://localhost:3000/products")
   }
 }
