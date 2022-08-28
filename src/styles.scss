@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+$typography: 'Poppins', sans-sarif;
+
+$background: #F5F5F5;
+$colorYellow: #FFCB05;
+$colorBlue: #004278;
+$colorGreen: #05D733;
+$colorGray: #5F5F5F;
+$colorRed: #CE0000;
+
+:root {
+  font-size: 60%;
+
+  @media (min-width: 700px) {
+    font-size: 62.5%;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: $typography;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-family: $typography;
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+}
+
+[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+body {
+  background-color: $background;
+
+  max-width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
