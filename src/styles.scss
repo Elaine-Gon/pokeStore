@@ -9,6 +9,14 @@ $colorGreen: #05D733;
 $colorGray: #5F5F5F;
 $colorRed: #CE0000;
 
+body {
+  background-color: $background;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 :root {
   font-size: 60%;
 
@@ -51,13 +59,6 @@ button {
   cursor: not-allowed;
 }
 
-body {
-  background-color: $background;
 
-  max-width: 100%;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 

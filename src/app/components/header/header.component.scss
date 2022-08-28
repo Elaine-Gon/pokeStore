@@ -1,0 +1,21 @@
+@import "../../../styles.scss";
+
+header {
+  width: 100vw;
+  height: 168px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $colorYellow;
+
+  img {
+    width: 332px;
+    height: 114px;
+
+    @media (max-width: 1280px) {
+      width: 280px;
+    }
+  }
+}
