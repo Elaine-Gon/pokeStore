@@ -1,0 +1,57 @@
+@import '../../../styles.scss';
+
+main {
+  width: 100vw;
+  height: auto;
+  padding: 35px 108px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  .filter {
+    width: 114px;
+    height: 35px;
+    padding: 9px 28px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: $falseWhite;
+    color: $colorBlue;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+  }
+
+  .order {
+    width: 144px;
+    height: 35px;
+    padding: 9px 12px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: $falseWhite;
+    color: $colorBlue;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+
+    span {
+      height: 21px;
+      margin-right: 12px;
+      border: 0.5px solid;
+    }
+  }
+
+}

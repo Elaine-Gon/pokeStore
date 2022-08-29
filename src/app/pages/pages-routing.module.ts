@@ -7,8 +7,8 @@ const routes: Routes = [
     path: '',
     component: ComponentsComponent,
     loadChildren: () =>
-        import('../components/components.module').then(
-          (m) => m.ComponentsModule
+        import('../pages/home/home.module').then(
+          (m) => m.HomeModule
         )
   }
 ];
