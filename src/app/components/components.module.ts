@@ -14,7 +14,7 @@ import { NavbarModule } from './navbar/navbar.module';
     CommonModule,
     RouterModule,
     HeaderModule,
-    NavbarModule
+    NavbarModule,
   ],
   exports: [
     ComponentsComponent
