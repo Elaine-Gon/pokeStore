@@ -64,4 +64,17 @@ main {
     }
   }
 
+  .dropdown-menu {
+    width: 65px;
+
+    border: none;
+    padding: 4px 10px;
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+  }
 }
